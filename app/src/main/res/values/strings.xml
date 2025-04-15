@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StormGuard</string>
+    <string name="buscar_ubicaci_n">Buscar Ubicación</string>
+    <string name="wind">Wind</string>
+    <string name="viento">Viento</string>
+    <string name="humedad">Humedad</string>
+    <string name="probabilidades_de_lluvia">Probabilidades de lluvia</string>
+    <string name="probabilidad_de_lluvia">Probabilidad de lluvia</string>
+    <string name="prob_lluvia">Prob. lluvia</string>
+</resources>

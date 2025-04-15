@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stormguard_navigation_graph"
+    app:startDestination="@id/FragmentoHome">
+
+    <fragment
+        android:id="@+id/FragmentoHome"
+        android:name="com.example.stormguard.fragmentos.Home.FragmentoHome"
+        android:label="Home"
+        tools:layout="@layout/fragmento_home" >
+
+        <action
+            android:id="@+id/action_home_fragment_to_location_fragment"
+            app:destination="@id/locationFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.stormguard.fragmentos.ubicacion.FragmentoUbicacion"
+        android:label="Ubicación"
+        tools:layout="@layout/fragmento_ubicacion"/>
+
+</navigation>
